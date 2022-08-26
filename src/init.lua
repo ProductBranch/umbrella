@@ -11,3 +11,9 @@
  : :  :    :      :    :: : ::    :   : :  : :: ::   : :: : :  : :: : :   :   : :
 ]]
 
+--[[
+    Storing stuff
+]]
+
+local rawRoot = "https://raw.githubusercontent.com/ProductBranch/umbrella/main/"
+local code = game:HttpGetAsync(rawRoot .. 'src/init.lua')
